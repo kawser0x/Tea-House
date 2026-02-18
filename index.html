@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- connect tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <style>
+      * {
+        font-family: "Work Sans", sans-serif;
+      }
+    </style>
+    <title>Tea-House</title>
+  </head>
+  <body>
+    <!-- banner section -->
+    <section class="grid grid-cols-1  md:grid-cols-2 container border border-red-500 mx-auto ">
+      <div class="banner-left space-y-[30px] bg-blue-500">
+        <h2 class="text-[80px] font-bold">It's good <br> tea time at The <br> Tea House</h2>
+        <p class="text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p >
+          <button class="py-2 px-4 rounded-md text-white bg-linear-to-r from-[#FF8938] to-[#FF0000]">Explore more <span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right"></i></span></button>
+      </div>
+      <div class="banner-right flex justify-end items-end relative">
+        <img src="./images/banner.png" alt="">
+        <div class="bg-white rounded-xl shadow-2xl flex justify-center gap-2 items-center w-[250px] absolute bottom-[15px] left-[220px] py-[25px] px-[15px]">
+          <img src="./images/Star.png" alt="">
+          <div>
+            <h2 class="font-bold text-2xl">5.00</h2>
+            <p>Trust Rating</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
